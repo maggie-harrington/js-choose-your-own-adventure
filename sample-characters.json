@@ -1,0 +1,14 @@
+{
+  "characters":[
+    {
+      "name": "Mario",
+      "career": "plumber",
+      "nationality": "Italian"
+    },
+    {
+      "name": "Luigi",
+      "career": "Mario's assistant",
+      "nationality": "Italian"
+    }
+  ]
+}

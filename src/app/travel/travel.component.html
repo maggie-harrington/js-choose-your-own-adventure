@@ -1,0 +1,20 @@
+<!-- <h3>You created a character:</h3>
+
+<div>
+  <h3>{{(characterToDisplay | async)?.name}}</h3>
+  <h4>{{(characterToDisplay | async)?.career}}</h4>
+  <h4>{{(characterToDisplay | async)?.nationality}}</h4>
+</div> -->
+
+<div class="" *ngFor="let character of characters | async">
+  <h4>Your name is: {{character.name}}</h4>
+  <h4>Your profession is: {{character.career}}</h4>
+  <h4>Your are: {{character.nationality}}</h4>
+</div>
+
+<h3>Select the city you want to go to:</h3>
+<select (change)="onChange($event.target.value)">
+  <option value="">selectcs</option>
+  <option value="lima">Lima</option>
+  <option value="rio">Rio</option>
+</select>

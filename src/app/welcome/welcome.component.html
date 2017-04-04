@@ -1,0 +1,16 @@
+<h3>Create your character:</h3><br>
+
+<div class="">
+  <label for="name">Name:</label>
+  <input type="text" name="name" value="" #name><br>
+
+  <label for="career">Career:</label>
+  <input type="text" name="career" value="" #career><br>
+
+  <label for="nationality">Nationality:</label>
+  <input type="text" name="nationality" value="" #nationality><br><br>
+
+  <!-- <button type="button" name="button" (click)="submitCharacter(name.value, career.value, nationality.value); name.value=''; career.value=''; nationality.value='' "></button> -->
+
+    <a (click)="submitCharacter(name.value, career.value, nationality.value);"  class="btn btn-info" routerLink="travel">Create character</a>
+</div>
